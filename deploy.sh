@@ -1,6 +1,8 @@
 #! /usr/bin/env bash
 cp ./vimrc ~/.vimrc
-mkdir ~/.vim
+if [ ! -d "~/.vim" ]; then
+    mkdir ~/.vim
+fi
 
 # copy files
 for i in `ls`; do
