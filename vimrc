@@ -24,10 +24,11 @@ set expandtab
 set shiftwidth=4
 set smarttab
 set fdm=indent
-set fdc=4
+"set fdc=4
 set nowrap
 set hlsearch
 set incsearch
+set tags=./tags
 colo default
 
 
