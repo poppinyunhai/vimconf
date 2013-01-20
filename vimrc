@@ -50,7 +50,6 @@ set smartindent
 set fdm=indent
 
 set nowrap
-set tw=80
 set hlsearch
 set incsearch
 set tags=./tags
@@ -136,6 +135,7 @@ autocmd FileType xml set ofu=xmlcomplete#CompleteTags
 " turn on syntax highlighting on scala file
 autocmd FileType scala colo scala
 
+map <Leader>d :EraseBadWhitespace<CR>
 "map <Leader>t :CommandT<CR>
 
 au BufNewFile,BufRead *.yaml,*.yml so ~/.vim/yaml.vim
