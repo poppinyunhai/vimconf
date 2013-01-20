@@ -1,5 +1,5 @@
 " Tips from http://nvie.com/posts/how-i-boosted-my-vim/
-set guifont=Menlo\ Regular:h14
+set guifont=Monaco:h14  " set fonts for gui vim
 set nocompatible
 set hidden
 set showmatch
