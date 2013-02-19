@@ -11,7 +11,7 @@ This is my vim configuration files.
 
 #### Mac OS X
     $ open ./fonts/Menlo-Powerline.otf
-    
+
 #### Linux
 
 Install `./fonts/Monaco_Linux-Powerline.ttf`
@@ -20,14 +20,14 @@ Install `./fonts/Monaco_Linux-Powerline.ttf`
 
 #### Mac OS X
     $ brew install ctags
-    
+
 #### Linux
 Use your package manager to install `ctags`
 
 e.g. ubuntu:
 
     $ sudo apt-get install ctags
-    
+
 
 ### Step 4: compile `command-t`
 
@@ -38,3 +38,11 @@ the `command-t` plugin can only be compiled by Ruby 1.8, so if you're using RVM,
     $ rvm use system
     $ ruby ./extconf.rb
     $ make
+
+### Step 5: install 'the silver searcher'
+
+Mac OS X:
+
+    $ brew install the_silver_searcher
+
+see: https://github.com/ggreer/the_silver_searcher

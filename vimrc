@@ -18,6 +18,9 @@ map <C-l> <C-w>l
 nmap <silent> ,/ :nohlsearch<CR>
 cmap w!! w !sudo tee % > /dev/null
 
+" The silver searcher
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
 " fix backspace delete
 inoremap <BS> <Left><Del>
 set whichwrap+=[
